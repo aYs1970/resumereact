@@ -1,0 +1,30 @@
+.contacts {
+    max-width: 944px;
+    margin: 0 auto;
+    background-color: beige;
+    padding-bottom: 107px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #070707;
+    border-radius: 25px;
+
+}
+h1 {
+    margin: 35px;
+}
+.form {
+    margin-left: 35px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-wrapper {
+   width: 50%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
