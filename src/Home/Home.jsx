@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css';
-import home from './foto.jpeg'
+// import home from './foto.jpeg'
 
 export const Home = () => {
     return (
@@ -12,7 +12,7 @@ export const Home = () => {
         <p className={'home-descr'}>web interface layout designer  53 years old, Vlsdivostok, Saint Petersburg</p>
         <p className={'home-lang'}>RU  |  Eng</p>
     </div>
-    <img className={'home-img'} src={home} alt="my foto"/>
+    {/*<img className={'home-img'} src={home} alt="my foto"/>*/}
     <div className={'home-img'}></div>
 
 </section>
